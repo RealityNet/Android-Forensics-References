@@ -77,7 +77,9 @@
       <ul>
          <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiHotspot.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiHotspot.py</a></li>
          <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
+         <li><b>Let's solve challenges - Cellebrite 2022 CTF Writeup</b><br /><a href="https://www.dfirblog.com/cellebrite-2022-ctf-writeup/">https://www.dfirblog.com/cellebrite-2022-ctf-writeup/</a></li>
          <li><b>Cellebrite CTF 2022 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html">https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html</a></li>
+         https://www.dfirblog.com/cellebrite-2022-ctf-writeup/
          <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
       </ul>
       <li><b>/misc_de/0/apexdata/com.android.permission/runtime-permissions.xml</b></li>
