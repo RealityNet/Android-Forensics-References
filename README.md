@@ -555,6 +555,7 @@
             <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
             <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
             <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/googlePlaySearches.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/googlePlaySearches.py</a></li>            
          </ul>
          <li><b>/data/com.android.vending/databases/verify_apps.db</b></li>
          <ul>
