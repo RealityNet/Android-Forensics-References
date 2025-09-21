@@ -202,6 +202,10 @@
             <li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
          </ul>
          <li><b>/system/PkgPredictions.db</b></li>
+         <ul>
+            <li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
+            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/pkgPredictions.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/pkgPredictions.py</a></li>
+         </ul>
          <li><b>/system/SemWifiApContentProvider</b></li>
          <ul>
             <li><b>Part 2: CTF 2022 Write Up – Heisenberg’s Android</b><br /><a href="https://cellebrite.com/en/part-2-ctf-2022-write-up-heisenbergs-android/">https://cellebrite.com/en/part-2-ctf-2022-write-up-heisenbergs-android/</a></li>
@@ -771,6 +775,7 @@
                      <li><b>(Not) Strange Bedfellows – Samsung’s Rubin & Digital Wellbeing<br /></b><a href="https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/">https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/</a></li>  
                      <li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
                      <li><b>Android System Artifacts: Forensic Analysis of Application Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage">https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage</a></li>
+                     <li><b>Investigating Android Digital Wellbeing</b><br /><a href="https://forensafe.com/blogs/androidDigitalWellbeing.html">https://forensafe.com/blogs/androidDigitalWellbeing.html</a></li>
                      <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/swellbeing.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/swellbeing.py</a></li>
                   </ul>
                </ul>
