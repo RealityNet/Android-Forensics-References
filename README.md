@@ -1,5 +1,5 @@
 # Android Forensics References
-<p>Last update: September 6th 2022</p>
+<p>Last update: September 21th 2025</p>
 <p>
 <h1>USERDATA Partition</p></h1>
 <p>
@@ -423,6 +423,7 @@
          <li><b>/data/com.google.android.gms/databases/cast.db</b></li>
          <ul>
             <li><b>An Android Casting (Device) Story: "cast.db"</b><br /><a href="https://deagler4n6blog.blogspot.com/2021/01/a-casting-story-castdb.html">https://deagler4n6blog.blogspot.com/2021/01/a-casting-story-castdb.html</a></li>
+            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/googleCast.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/googleCast.py</a></li>            
          </ul>
          <li><b>/data/com.google.android.gms/databases/constellation.db</b></li>
          <ul>
