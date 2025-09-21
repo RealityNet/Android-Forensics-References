@@ -377,6 +377,18 @@
       </ul>
    </ul>
    <div>
+      <h3 style="text-align: left;"><b>Device Personalization Services (DPS) (com.google.android.as)</b></h3>
+   </div>
+   <ul>
+      <li><b>/data/com.google.android.as/databases/reflection_gel_events.db</b></li>
+      <ul>
+         <li><b>Android System Artifacts: Forensic Analysis of Application Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage">https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage</a></li>
+         <li><b>Walking the Android (time)line Part 2 – Using Android’s Device Personalization Services to timeline user activity</b><br /><a href="https://thebinaryhick.blog/2020/05/16/walking-the-android-timeline-part-2-using-androids-device-personalization-services-to-timeline-user-activity/">https://thebinaryhick.blog/2020/05/16/walking-the-android-timeline-part-2-using-androids-device-personalization-services-to-timeline-user-activity/</a></li>
+         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/usageapps.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/usageapps.py</a></li>
+      </ul>
+   </ul>
+   <div>
+   <div>
       <h3 style="text-align: left;"><b>Settings Services (com.google.android.settings.intelligence)</b></h3>
    </div>
    <ul>
@@ -469,6 +481,10 @@
          <li><b>/data/com.google.android.gms/shared_prefs/nearbysharing:service:state.xml</b></li>
          <ul>
             <li><b>Nearby Share – AirDrop for Android (Return of the Unsolicited Richard Photograph)</b><br /><a href="https://thebinaryhick.blog/2020/08/22/nearby-share-airdrop-for-android-return-of-the-unsolicited-richard-photograph/">https://thebinaryhick.blog/2020/08/22/nearby-share-airdrop-for-android-return-of-the-unsolicited-richard-photograph/</a></li>
+         </ul>
+         <li><b>/data/com.google.android.gms/shared_prefs/ULR_USER_PREFS.xml</b></li>
+         <ul>
+            <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/ulrUserprefs.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/ulrUserprefs.py</a></li>
          </ul>
       </ul>
       <p>
