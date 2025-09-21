@@ -9,7 +9,7 @@
    <ul>
       <li><b>/log/wifi/iwc/iwc_dump.txt</b></li>
       <ul>
-         <li><b>Cellebrite CTF 2023 Recap: Answers on Sharon’s Android</b><br /><a href="https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/">[https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html](https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/)</a></li>
+         <li><b>Cellebrite CTF 2023 Recap: Answers on Sharon’s Android</b><br /><a href="https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/">https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/</a></li>
       </ul>      
       <li><b>/log/netstats</b></li>
       <li><b>/log/batterystats</b></li>
