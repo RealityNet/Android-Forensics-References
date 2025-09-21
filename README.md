@@ -343,10 +343,19 @@
       <h3 style="text-align: left;"><b>Google Docs (com.google.android.apps.docs)</b></h3>
    </div>
    <ul>
+      <li><b>/data/com.google.android.apps.docs/databases/cello.db</b></li>
+      <ul>         
+         <li><b>Google Docs - Cello & DocList DBs</b><br/><a href="https://www.stark4n6.com/2020/12/google-docs-cello-doclist-dbs.html">https://www.stark4n6.com/2020/12/google-docs-cello-doclist-dbs.html</a></li>
+         <li><b>Android Google Drive</b><br/><a href="https://forensafe.com/blogs/AndroidGoogleDrive.html">https://forensafe.com/blogs/AndroidGoogleDrive.html</a></li>
+         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Cello.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Cello.py</a></li>
+      </ul>
+   </ul>      
+   <ul>
       <li><b>/data/com.google.android.apps.docs/databases/DocList.db</b></li>
       <ul>
          <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/DocList.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/DocList.py</a></li>
          <li><b>Google Docs - Cello &amp; DocList DBs</b><br /><a href="https://www.stark4n6.com/2020/12/google-docs-cello-doclist-dbs.html">https://www.stark4n6.com/2020/12/google-docs-cello-doclist-dbs.html</a></li>
+         <li><b>Android Google Drive</b><br/><a href="https://forensafe.com/blogs/AndroidGoogleDrive.html">https://forensafe.com/blogs/AndroidGoogleDrive.html</a></li>
          <li><b>Digital Forensic Investigation of Cloud Storage Services</b><br /><a href="https://arxiv.org/ftp/arxiv/papers/1709/1709.10395.pdf">https://arxiv.org/ftp/arxiv/papers/1709/1709.10395.pdf</a></li>
          <li><b>Android Cloud Forensics - Final Findings</b><br /><a href="http://obrienforensics.blogspot.com/2014/04/final-findings.html">http://obrienforensics.blogspot.com/2014/04/final-findings.html</a><br /></li>
          <li><b>Digital Evidence Identification on Google Drive in Android Device Using NIST Mobile Forensic Method</b><br /><a href="https://pdfs.semanticscholar.org/b699/e47687819041e2cbf69fa6d6afbd0c6a3fc2.pdf">https://pdfs.semanticscholar.org/b699/e47687819041e2cbf69fa6d6afbd0c6a3fc2.pdf</a></li>
@@ -472,7 +481,11 @@
          <ul>
             <li><b>Smart Speakers Forensics</b><br /><a href="https://core.ac.uk/download/pdf/230544843.pdf">https://core.ac.uk/download/pdf/230544843.pdf</a></li>
          </ul>
-         <li><b>/data/com.google.android.gms/shared_prefs/batterystats.xml<br /></b></li>
+         <li><b>/data/com.google.android.gms/files/fcm_queued_messages.ldb</b></li>
+         <ul>
+            <li><b>FCM Queued Messages on Android</b><br /><a href="https://www.cclsolutionsgroup.com/post/fcm-queued-messages-on-android">https://www.cclsolutionsgroup.com/post/fcm-queued-messages-on-android</a></li>
+         </ul>
+         <li><b>/data/com.google.android.gms/shared_prefs/batterystats.xml</b></li>
          <ul>
             <li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
          </ul>
