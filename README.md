@@ -37,6 +37,9 @@
       </ul>
       <li><b>/misc/bluedroiddump/mainBuffer.log</b></li>
       <li><b>/misc/bluedroiddump/subBuffer.log</b></li>
+         <ul>
+            <li><b>Road Trippin’ – Exploring Bluetooth Call Routes on Samsung Phones</b><br /><a   href="https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/">https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/</a>
+         </ul>      
       <li><b>/misc/bluedroid/bt_config.conf</b></li>
       <ul>
          <li><b>How Android Bluetooth Connections Can Determine If The Hands of a Driver Were On The Wheel During An Accident</b><br /><a href="https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/">https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/</a><br /><a href="https://dfir.pubpub.org/pub/6ysxvhvc/release/1">https://dfir.pubpub.org/pub/6ysxvhvc/release/1</a></li>
@@ -163,6 +166,11 @@
          <ul>
             <li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
          </ul>
+         <li><b>/system/users/service/data/eRR.p</b></li>
+         <ul>
+            <li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>
+         </ul>
+         
          <li><b>/system/appops.xml</b></li>
          <ul>
             <li><b>Snooping on Android 12’s Privacy Dashboard</b><br /><a href="https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/">https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/</a></li>
@@ -384,6 +392,10 @@
    </div>
    <div>
       <ul style="text-align: left;">
+         <li><b>/data/com.google.android.gms/app_semanticlocation_rawsignal_db</b></li>
+         <ul>
+            <li><b>The Green Look Back. Android’s On-Device Location History</b><br /><a href="https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/">https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/</a></li>
+         </ul>
          <li><b>/data/com.google.android.gms/databases/cast.db</b></li>
          <ul>
             <li><b>An Android Casting (Device) Story: "cast.db"</b><br /><a href="https://deagler4n6blog.blogspot.com/2021/01/a-casting-story-castdb.html">https://deagler4n6blog.blogspot.com/2021/01/a-casting-story-castdb.html</a></li>
@@ -570,6 +582,9 @@
                   <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
                </ul>
                <li><b>/data/com.google.android.apps.messaging/shared_prefs/sim_state_tracker.xml</b></li>
+               <ul>
+                  <li><b>Magnet Virtual Summit 2025 CTF - Android/b><br /><a href="https://www.stark4n6.com/2025/03/magnet-virtual-summit-2025-ctf-android.html">https://www.stark4n6.com/2025/03/magnet-virtual-summit-2025-ctf-android.html</a></li>                  
+               </ul>
             </ul>
          </div>
       </div>
@@ -728,6 +743,7 @@
                   <li><b>/data/</b><b>com.samsung.forest</b><b>/databases/dwbCommon.db</b></li>
                   <ul>
                      <li><b>Walking the Android (time)line. Using Android’s Digital Wellbeing to timeline Android activity.<br /></b><a href="https://thebinaryhick.blog/2020/02/22/walking-the-android-timeline-using-androids-digital-wellbeing-to-timeline-android-activity/">https://thebinaryhick.blog/2020/02/22/walking-the-android-timeline-using-androids-digital-wellbeing-to-timeline-android-activity/</a></li>
+                     <li><b>(Not) Strange Bedfellows – Samsung’s Rubin & Digital Wellbeing<br /></b><a href="https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/">https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/</a></li>                     
                      <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/swellbeing.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/swellbeing.py</a></li>
                   </ul>
                </ul>
