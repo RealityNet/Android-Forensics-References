@@ -408,6 +408,14 @@
          <ul>
             <li><b>The Green Look Back. Android’s On-Device Location History</b><br /><a href="https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/">https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/</a></li>
          </ul>
+         <li><b>/data/com.google.android.gms/app_semanticlocation_placeindex_cache</b></li>
+         <ul>
+            <li><b>The Green Look Back. Android’s On-Device Location History</b><br /><a href="https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/">https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/</a></li>
+         </ul>
+         <li><b>/data/com.google.android.gms/app_semanticlocation_odlh_cache</b></li>
+         <ul>
+            <li><b>The Green Look Back. Android’s On-Device Location History</b><br /><a href="https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/">https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/</a></li>
+         </ul>
          <li><b>/data/com.google.android.gms/databases/cast.db</b></li>
          <ul>
             <li><b>An Android Casting (Device) Story: "cast.db"</b><br /><a href="https://deagler4n6blog.blogspot.com/2021/01/a-casting-story-castdb.html">https://deagler4n6blog.blogspot.com/2021/01/a-casting-story-castdb.html</a></li>
@@ -484,6 +492,7 @@
          </ul>
          <li><b>/data/com.google.android.gms/shared_prefs/ULR_USER_PREFS.xml</b></li>
          <ul>
+            <li><b>The Green Look Back. Android’s On-Device Location History<br /></b><a href="https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/">https://thebinaryhick.blog/2024/06/28/the-green-look-back-androids-on-device-location-history/</a></li>
             <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/ulrUserprefs.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/ulrUserprefs.py</a></li>
          </ul>
       </ul>
