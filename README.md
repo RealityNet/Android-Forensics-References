@@ -319,6 +319,7 @@
          <li><b>Hex Diving — The Easy Way to Uncover Hidden Forensic Artifacts</b><br /><a href="https://cellebrite.com/en/hex-diving-the-easy-way-to-uncover-hidden-forensic-artifacts/">https://cellebrite.com/en/hex-diving-the-easy-way-to-uncover-hidden-forensic-artifacts/</a></li>
          <li><b>Android Mobile Artifacts: A Treasure Trove of Digital Evidence in Crime Investigation&nbsp;</b><br /><a href="https://www.irjet.net/archives/V8/i8/IRJET-V8I885.pdf">https://www.irjet.net/archives/V8/i8/IRJET-V8I885.pdf</a></li>
          <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+         <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/siminfo.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/siminfo.py</a></li>
       </ul>
       <li><b><b>/user_de/0/</b>com.android.settings/databases/applist.db</b></li>
       <li><b>/user_de/0/com.samsung.accessibility/shared_prefs/accessibility_prefs.xml</b></li>
@@ -368,7 +369,7 @@
       <h3 style="text-align: left;">
          <b>Files by Google (com.google.android.apps.nbu.files)</b>
    </div>
-   <ul><li><b>/data/com.google.android.apps.nbu.files/databases/files_master_database</b></li><ul><li><b>Files By Google: More Mobile Explorer Artifacts</b></h3><br /><a href="https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html">https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html</a></li><li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle_FilesMaster.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle_FilesMaster.py</a></li></ul><li><b>/data/com.google.android.apps.nbu.files/databases/search_history_database</b></li><ul><li><b>Files By Google: More Mobile Explorer Artifacts</b><br /><a href="https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html">https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html</a></li><li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle_SearchHistory.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle_SearchHistory.py</a></li></ul></ul>
+   <ul><li><b>/data/com.google.android.apps.nbu.files/databases/files_master_database</b></li><ul><li><b>Files By Google: More Mobile Explorer Artifacts</b></h3><br /><a href="https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html">https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html</a></li><li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle_FilesMaster.py</a></li></ul><li><b>/data/com.google.android.apps.nbu.files/databases/search_history_database</b></li><ul><li><b>Files By Google: More Mobile Explorer Artifacts</b><br /><a href="https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html">https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html</a></li><li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/FilesByGoogle_SearchHistory.py</a></li></ul></ul>
    <div>
       <h3 style="text-align: left;"><b>Device Health Services (com.google.android.apps.turbo)</b></h3>
    </div>
@@ -400,6 +401,10 @@
          <li><b>Walking the Android (time)line Part 2 – Using Android’s Device Personalization Services to timeline user activity</b><br /><a href="https://thebinaryhick.blog/2020/05/16/walking-the-android-timeline-part-2-using-androids-device-personalization-services-to-timeline-user-activity/">https://thebinaryhick.blog/2020/05/16/walking-the-android-timeline-part-2-using-androids-device-personalization-services-to-timeline-user-activity/</a></li>
          <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/usageapps.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/usageapps.py</a></li>
       </ul>
+      <li><b>/data/com.google.android.as/databases/SimpleStorage</b></li>
+      <ul>         
+         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/SimpleStorage_applaunch.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/SimpleStorage_applaunch.py</a></li>
+      </ul>      
    </ul>
    <div>
    <div>
@@ -411,6 +416,12 @@
          <li><b>Application Battery Usage via Settings Services</b><br /><a href="https://www.stark4n6.com/2021/12/application-battery-usage-via-settings.html">https://www.stark4n6.com/2021/12/application-battery-usage-via-settings.html</a></li>
          <li><b>Examining A Malware-Infected Android Phone. This Android Is Not Alright.</b><br /><a href="https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/">https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/</a></li>
          <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/battery_usage_v4.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/battery_usage_v4.py</a></li>
+      </ul>
+   </ul>
+   <ul>
+      <li><b>/data/com.google.android.settings.intelligence/databases/battery-usage-db-v9</b></li>
+      <ul>
+         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/battery_usage_v9.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/battery_usage_v9.py</a></li>
       </ul>
    </ul>
    <div>
@@ -484,6 +495,9 @@
          <li><b>/data/com.google.android.gms/files/fcm_queued_messages.ldb</b></li>
          <ul>
             <li><b>FCM Queued Messages on Android</b><br /><a href="https://www.cclsolutionsgroup.com/post/fcm-queued-messages-on-android">https://www.cclsolutionsgroup.com/post/fcm-queued-messages-on-android</a></li>
+            <li><b>Android Firebase Cloud Messaging</b><br /><a href="https://forensafe.com/blogs/AndroidFCM.html">https://forensafe.com/blogs/AndroidFCM.html</a></li>
+            <li><b>Not All Androids Who Wander Are Lost. A Look At Android’s Find My Device Network</b><br /><a href="https://thebinaryhick.blog/2024/08/23/not-all-androids-who-wonder-are-lost-a-look-at-androids-find-my-device-network/">https://thebinaryhick.blog/2024/08/23/not-all-androids-who-wonder-are-lost-a-look-at-androids-find-my-device-network/</a></li>
+            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/FCMQueuedMessagesDump.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/FCMQueuedMessagesDump.py</a></li>
          </ul>
          <li><b>/data/com.google.android.gms/shared_prefs/batterystats.xml</b></li>
          <ul>
