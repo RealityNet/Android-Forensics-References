@@ -74,7 +74,7 @@
          <li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a><br /></li>
          <li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
          <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py</a></li>
+         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py</a></li>
       </ul>
       <li><b>/misc/wifi/softap.conf<br /></b><b>/misc/apexdata/com.android.wifi/WifiConfigStoreSoftAp.xml</b></li>
       <ul>
