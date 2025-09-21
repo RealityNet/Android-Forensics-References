@@ -810,6 +810,16 @@
                   </ul>
                </ul>
             </div>
+            <div>
+               <h3 style="text-align: left;">
+                  <b>Samsung Digital Wellbeing (</b><b>com.samsung.forest)</b>
+               </h3>
+            </div>
+            <div>
+               <ul>
+                  <li><b>/data/</b><b>com.samsung.forest</b><b>/databases/dwbCommon.db</b></li>
+                  <ul>
+                     <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/SamsungHoneyboard.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/SamsungHoneyboard.py</a></li>                   
          </div>
       </div>
    </div>
