@@ -768,7 +768,9 @@
                   <li><b>/data/</b><b>com.samsung.forest</b><b>/databases/dwbCommon.db</b></li>
                   <ul>
                      <li><b>Walking the Android (time)line. Using Android’s Digital Wellbeing to timeline Android activity.<br /></b><a href="https://thebinaryhick.blog/2020/02/22/walking-the-android-timeline-using-androids-digital-wellbeing-to-timeline-android-activity/">https://thebinaryhick.blog/2020/02/22/walking-the-android-timeline-using-androids-digital-wellbeing-to-timeline-android-activity/</a></li>
-                     <li><b>(Not) Strange Bedfellows – Samsung’s Rubin & Digital Wellbeing<br /></b><a href="https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/">https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/</a></li>                     
+                     <li><b>(Not) Strange Bedfellows – Samsung’s Rubin & Digital Wellbeing<br /></b><a href="https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/">https://thebinaryhick.blog/2025/08/06/not-strange-bedfellows-samsungs-rubin-digital-wellbeing/</a></li>  
+                     <li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
+                     <li><b>Android System Artifacts: Forensic Analysis of Application Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage">https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage</a></li>
                      <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/swellbeing.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/swellbeing.py</a></li>
                   </ul>
                </ul>
