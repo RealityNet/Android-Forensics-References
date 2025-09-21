@@ -170,7 +170,6 @@
          <ul>
             <li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>
          </ul>
-         
          <li><b>/system/appops.xml</b></li>
          <ul>
             <li><b>Snooping on Android 12’s Privacy Dashboard</b><br /><a href="https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/">https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/</a></li>
