@@ -331,6 +331,7 @@
       <li><b>/data/com.google.android.apps.wellbeing/databases/app_usage<br /></b></li>
       <ul>
          <li><b>Walking the Android (time)line. Using Android’s Digital Wellbeing to timeline Android activity.</b><br /><a href="https://thebinaryhick.blog/2020/02/22/walking-the-android-timeline-using-androids-digital-wellbeing-to-timeline-android-activity/">https://thebinaryhick.blog/2020/02/22/walking-the-android-timeline-using-androids-digital-wellbeing-to-timeline-android-activity/</a></li>
+         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/wellbeing.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/wellbeing.py</a></li>         
       </ul>
    </ul>
    <div>
