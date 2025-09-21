@@ -169,6 +169,7 @@
          <li><b>/system/users/service/data/eRR.p</b></li>
          <ul>
             <li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>
+            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/errp.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/errp.py</a></li>            
          </ul>
          <li><b>/system/appops.xml</b></li>
          <ul>
