@@ -20,9 +20,15 @@
       </ul>
       <li><b>/log/recovery</b></li>
       <li><b>/log/sdp_log</b></li>
+      <ul>
+         <li><b>8 Log files you can collect from iOS and Android devices</b><br /><a href="https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/">https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/</a></li>
+      </ul>
       <li><b>/log/thermal_log</b></li>
       <li><b>/log/power_off_reset_reason.txt</b></li>
       <ul>
+         <li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>         
+         <li><b>Samsung Power Off Reset Logs</b><br /><a href="https://www.stark4n6.com/2021/10/samsung-power-off-reset-logs.html">https://www.stark4n6.com/2021/10/samsung-power-off-reset-logs.html</a></li>         
+         <li><b>8 Log files you can collect from iOS and Android devices</b><br /><a href="https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/">https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/</a></li>         
          <li><b>Cellebrite CTF 2021 - Heisenberg's Android<br /></b><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
          <li><b>Artefacts of Android device power off due to depleted battery<br /></b><a href="https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery">https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery</a></li>
          <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/powerOffReset.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/powerOffReset.py</a></li>
@@ -39,6 +45,10 @@
          <li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/adb_hosts.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/adb_hosts.py</a></li>
       </ul>
       <li><b>/misc/bluedroiddump/mainBuffer.log</b></li>
+         <ul>
+            <li><b>Investigating Evidence of Mobile Phone Usage by Drivers in Road Traffic Accidents</b><br /><a href="https://dfrws.org/sites/default/files/session-files/2015_EU_paper-investigating_evidence_of_mobile_phone_usage_by_drivers_in_road_traffic_accidents.pdf">https://dfrws.org/sites/default/files/session-files/2015_EU_paper-investigating_evidence_of_mobile_phone_usage_by_drivers_in_road_traffic_accidents.pdf</a>
+            <li><b>Forensic Analysis of Wireless Networking Evidence of Android Smartphones</b><br /><a href="https://andriotisp.github.io/assets/pdf/wifs12andrio.pdf">https://andriotisp.github.io/assets/pdf/wifs12andrio.pdf</a>               
+         </ul>           
       <li><b>/misc/bluedroiddump/subBuffer.log</b></li>
          <ul>
             <li><b>Road Trippin’ – Exploring Bluetooth Call Routes on Samsung Phones</b><br /><a   href="https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/">https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/</a>
