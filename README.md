@@ -1070,3 +1070,81 @@
 	</ul>
 </div>
 
+<p>
+<h3 style="text-align: left;"><b>Android Auto (com.google.android.projection.gearhead)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.projection.gearhead/databases/carservicedata.db</b></li>
+			<ul>
+				<li><b>How Android Bluetooth Connections Can Determine If The Hands of a Driver Were On The Wheel During An Accident</b><br /><a href="https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/">https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/</a><br /><a href="https://dfir.pubpub.org/pub/6ysxvhvc/release/1">https://dfir.pubpub.org/pub/6ysxvhvc/release/1</a></li>
+				<li><b>Auto-Parser: Android Auto and Apple CarPlay Forensics<br /></b><a href="https://www.researchgate.net/publication/360577665_Auto-Parser_Android_Auto_and_Apple_CarPlay_Forensics_Auto-Parser_Android_Auto_and_Apple_CarPlay_Forensics">https://www.researchgate.net/publication/360577665_Auto-Parser_Android_Auto_and_Apple_CarPlay_Forensics_Auto-Parser_Android_Auto_and_Apple_CarPlay_Forensics</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/androidauto.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/androidauto.py</a></li>
+			</ul>
+	</ul>
+</div>
+
+<p>
+<h3 style="text-align: left;"><b>GBoard Google Keyboard (com.google.android.inputmethod.latin)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.inputmethod.latin/databases/trainingcache*.db</b></li>
+			<ul>
+				<li><b>Gboard has some interesting data..</b><br /><a href="<a href="https://www.swiftforensics.com/2021/01/gboard-has-some-interesting-data.html">https://www.swiftforensics.com/2021/01/gboard-has-some-interesting-data.html</a></li>
+				<li><b>Investigating Android Gboard<br /></b><a href="https://forensafe.com/blogs/AndroidGBoard.html">https://forensafe.com/blogs/AndroidGBoard.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py</a></li>
+			</ul>
+	</ul>
+	<ul>
+		<li><b>/data/com.google.android.inputmethod.latin/databases/gboard_clipboard.db</b></li>
+			<ul>
+				<li><b>Gboard and Clipboard History</b><br /><a href="<a href="https://www.stark4n6.com/2023/05/gboard-and-clipboard-history.html">https://www.stark4n6.com/2023/05/gboard-and-clipboard-history.html</a></li>
+				<li><b>Investigating Android Gboard<br /></b><a href="https://forensafe.com/blogs/AndroidGBoard.html">https://forensafe.com/blogs/AndroidGBoard.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py</a></li>
+			</ul>
+		<li><b>/data/com.google.android.inputmethod.latin/files/clipboard_image/</b></li>
+			<ul>
+				<li><b>Gboard and Clipboard History</b><br /><a href="<a href="https://www.stark4n6.com/2023/05/gboard-and-clipboard-history.html">https://www.stark4n6.com/2023/05/gboard-and-clipboard-history.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py</a></li>
+			</ul>
+	</ul>
+</div>
+
+<p>
+<h3 style="text-align: left;"><b>Google Meet (com.google.android.apps.tachyon)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.apps.tachyon/databases/tachyon.db</b></li>
+			<ul>
+				<li><b>Google Duo - Android & iOS Forensic Analysis</b><br /><a href="https://www.stark4n6.com/2021/08/google-duo-android-ios-forensic-analysis.html">https://www.stark4n6.com/2021/08/google-duo-android-ios-forensic-analysis.html</a></li>
+				<li><b>Investigating Android Google Meet<br /></b><a href="https://www.forensafe.com/blogs/android-google-meet.html">https://www.forensafe.com/blogs/android-google-meet.html</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleDuo.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleDuo.py</a></li>
+			</ul>
+	</ul>
+</div>
+
+<p>
+<h3 style="text-align: left;"><b>Google Keep - Notes and lists (com.google.android.apps.tachyon)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.keep/databases/keep.db</b></li>
+			<ul>
+				<li><b>Google Duo - Android & iOS Forensic Analysis</b><br /><a href="https://www.stark4n6.com/2021/08/google-duo-android-ios-forensic-analysis.html">https://www.stark4n6.com/2021/08/google-duo-android-ios-forensic-analysis.html</a></li>
+				<li><b>Investigating Android Google Keep<br /></b><a href="https://www.forensafe.com/blogs/AndroidGoogleKeep.html">https://www.forensafe.com/blogs/AndroidGoogleKeep.html</a></li>
+				<li><b>Google Keep - Notes and Lists: Mobile Artifacts<br /></b><a href="https://blog.bi0s.in/2021/06/18/Forensics/Google-Keep-Notes-and-Lists-Mobile-Artifacts/">https://blog.bi0s.in/2021/06/18/Forensics/Google-Keep-Notes-and-Lists-Mobile-Artifacts/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleKeepNotes.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleKeepNotes.py</a></li>
+			</ul>
+	</ul>
+</div>
+
