@@ -1161,3 +1161,63 @@
 	</ul>
 </div>
 
+<p>
+<h3 style="text-align: left;"><b>Google Tasks (com.google.android.apps.tasks)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.apps.tasks/files/tasks-*/data.db</b></li>
+			<ul>
+				<li><b>Google Tasks - Android Forensics analysis</b><br /><a href="https://g4rud4.gitlab.io/2021/Google-Tasks-Android-Forensics-analysis/">https://g4rud4.gitlab.io/2021/Google-Tasks-Android-Forensics-analysis/</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleTasks.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleTasks.py</a></li>				
+			</ul>
+	</ul>
+</div>
+
+<p>
+<h3 style="text-align: left;"><b>Google Maps (com.google.android.apps.maps)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.apps.maps/app_tts-cache/</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
+				<li><b>At the roundabout, take the second exit…<br /></b><a href="https://kibaffo33.data.blog/2021/12/30/at-the-roundabout-take-the-second-exit/">https://kibaffo33.data.blog/2021/12/30/at-the-roundabout-take-the-second-exit/</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlemapaudio.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlemapaudio.py</a></li>				
+			</ul>			
+		<li><b>/data/com.google.android.apps.maps/app_tts-temp/</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlemapaudioTemp.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlemapaudioTemp.py</a></li>				
+			</ul>
+		<li><b>/data/com.google.android.apps.maps/databases/gmm_myplaces.db</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
+				<li><b>Decoding Android Google Maps : gmm_myplaces.db<br /></b><a href="https://segumarc.com/2023/12/15/decoding-android-google-maps-gmm_myplaces-db/">https://segumarc.com/2023/12/15/decoding-android-google-maps-gmm_myplaces-db/</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2023<br /></b><a href="https://cts-forensics.com/reports/23-5550_Web.pdf">https://cts-forensics.com/reports/23-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py</a></li>				
+			</ul>			
+		<li><b>/data/com.google.android.apps.maps/databases/gmm_storage.db</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
+				<li><b>Magnet Virtual Summit 2024 CTF - Android</b><br /><a href="https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html">https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py</a></li>				
+			</ul>		
+		<li><b>/data/com.google.android.apps.maps/files/new_recent_history_cache_search.cs</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsSearches.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsSearches.py</a></li>				
+			</ul>			
+		<li><b>/data/com.google.android.apps.maps/files/saved_directions.data.cs</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021</b><br /><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleLastTrip.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleLastTrip.py</a></li>				
+			</ul>		
+	</ul>
+</div>
