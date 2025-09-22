@@ -1003,7 +1003,7 @@
 	<ul>
 		<li><b>/data/com.android.providers.downloads/databases/downloads.db</b></li>
 			<ul>
-				<li><b>Investigating Android Downloads</b><br /><a href="https://forensafe.com/blogs/Android_Downloads.html">https://forensafe.com/blogs/Android_Downloads.html</a></li>							</ul>
+				<li><b>Investigating Android Downloads</b><br /><a href="https://forensafe.com/blogs/Android_Downloads.html">https://forensafe.com/blogs/Android_Downloads.html</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2016</b><br /><a href="https://cts-forensics.com/reports/36550_Web.pdf">https://cts-forensics.com/reports/36550_Web.pdf</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
 				<li><b>spy vs. spy: examining spyware on mobile devices</b><br /><a href="https://media.defcon.org/DEF%20CON%2020/DEF%20CON%2020%20presentations/DEF%20CON%2020%20-%20Robinson-Spy-vs-Spy.pdf">https://media.defcon.org/DEF%20CON%2020/DEF%20CON%2020%20presentations/DEF%20CON%2020%20-%20Robinson-Spy-vs-Spy.pdf</a></li>
