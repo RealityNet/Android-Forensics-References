@@ -853,6 +853,7 @@
 			<ul>
 				<li><b>Forensic Analysis of Wireless Networking Evidence of Android Smartphones</b><br /><a href="https://www.fortoo.eu/m/page-media/4/Andriotis-2012-1-wifs.pdf">https://www.fortoo.eu/m/page-media/4/Andriotis-2012-1-wifs.pdf</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/pSettings.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/pSettings.py</a></li>
 			</ul>
 	</ul>
