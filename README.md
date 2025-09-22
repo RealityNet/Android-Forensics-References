@@ -2,337 +2,374 @@
 <p>Last update: September 21th 2025</p>
 <p>
 <h1>USERDATA Partition</p></h1>
+
 <p>
 <h2 style="text-align: left;"><b><span style="font-size: medium;">"/log" folder</span></b></h2>
 </p>
+
 <div>
-   <ul>
-      <li><b>/log/wifi/iwc/iwc_dump.txt</b></li>
-		<ul>
-			<li><b>Cellebrite CTF 2023 Recap: Answers on Sharon’s Android</b><br /><a href="https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/">https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/</a></li>
-		</ul>      
-      <li><b>/log/netstats</b></li>
-      <li><b>/log/batterystats</b></li>
-		<ul>
-			<li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
-			<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a><br /></li>
-			<li><b>Artefacts of Android device power off due to depleted battery</b><br /><a href="https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery">https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery</a></li>
-		</ul>
-      <li><b>/log/recovery</b></li>
-      <li><b>/log/sdp_log</b></li>
-		<ul>
-			<li><b>8 Log files you can collect from iOS and Android devices</b><br /><a href="https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/">https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/</a></li>
-		</ul>
-      <li><b>/log/thermal_log</b></li>
-      <li><b>/log/power_off_reset_reason.txt</b></li>
-		<ul>
-			<li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>         
-			<li><b>Samsung Power Off Reset Logs</b><br /><a href="https://www.stark4n6.com/2021/10/samsung-power-off-reset-logs.html">https://www.stark4n6.com/2021/10/samsung-power-off-reset-logs.html</a></li>         
-			<li><b>8 Log files you can collect from iOS and Android devices</b><br /><a href="https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/">https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/</a></li>         
-			<li><b>Cellebrite CTF 2021 - Heisenberg's Android<br /></b><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
-			<li><b>Artefacts of Android device power off due to depleted battery<br /></b><a href="https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery">https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery</a></li>
-			<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/powerOffReset.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/powerOffReset.py</a></li>
-		</ul>
-   </ul>
+	<ul>
+		<li><b>/log/wifi/iwc/iwc_dump.txt</b></li>
+			<ul>
+				<li><b>Cellebrite CTF 2023 Recap: Answers on Sharon’s Android</b><br /><a href="https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/">https://cellebrite.com/en/cellebrite-ctf-2023-recap-sharons-android/</a></li>
+			</ul>      
+		<li><b>/log/netstats</b></li>
+		<li><b>/log/batterystats</b></li>
+			<ul>
+				<li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a><br /></li>
+				<li><b>Artefacts of Android device power off due to depleted battery</b><br /><a href="https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery">https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery</a></li>
+			</ul>
+		<li><b>/log/recovery</b></li>
+		<li><b>/log/sdp_log</b></li>
+			<ul>
+				<li><b>8 Log files you can collect from iOS and Android devices</b><br /><a href="https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/">https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/</a></li>
+			</ul>
+		<li><b>/log/thermal_log</b></li>
+		<li><b>/log/power_off_reset_reason.txt</b></li>
+			<ul>
+				<li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>         
+				<li><b>Samsung Power Off Reset Logs</b><br /><a href="https://www.stark4n6.com/2021/10/samsung-power-off-reset-logs.html">https://www.stark4n6.com/2021/10/samsung-power-off-reset-logs.html</a></li>         
+				<li><b>8 Log files you can collect from iOS and Android devices</b><br /><a href="https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/">https://www.magnetforensics.com/blog/8-log-files-you-can-collect-from-ios-and-android-devices/</a></li>         
+				<li><b>Cellebrite CTF 2021 - Heisenberg's Android<br /></b><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
+				<li><b>Artefacts of Android device power off due to depleted battery<br /></b><a href="https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery">https://instatronic.com/artefacts-of-android-device-power-off-due-to-depleted-battery</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/powerOffReset.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/powerOffReset.py</a></li>
+			</ul>
+	</ul>
 </div>
+
 <p>
 <h2 style="text-align: left;"><b><span style="font-size: medium;">"/misc" and "/misc_de" folder</span></b></h2>
 </p>
-<div>
-   <ul>
-      <li><b>/misc/adb/adb_keys</b></li>
-		<ul>
-			<li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/adb_hosts.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/adb_hosts.py</a></li>
-		</ul>
-      <li><b>/misc/bluedroiddump/mainBuffer.log</b></li>
-         <ul>
-            <li><b>Investigating Evidence of Mobile Phone Usage by Drivers in Road Traffic Accidents</b><br /><a href="https://dfrws.org/sites/default/files/session-files/2015_EU_paper-investigating_evidence_of_mobile_phone_usage_by_drivers_in_road_traffic_accidents.pdf">https://dfrws.org/sites/default/files/session-files/2015_EU_paper-investigating_evidence_of_mobile_phone_usage_by_drivers_in_road_traffic_accidents.pdf</a>
-            <li><b>Forensic Analysis of Wireless Networking Evidence of Android Smartphones</b><br /><a href="https://andriotisp.github.io/assets/pdf/wifs12andrio.pdf">https://andriotisp.github.io/assets/pdf/wifs12andrio.pdf</a>               
-         </ul>           
-      <li><b>/misc/bluedroiddump/subBuffer.log</b></li>
-         <ul>
-            <li><b>Road Trippin’ – Exploring Bluetooth Call Routes on Samsung Phones</b><br /><a   href="https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/">https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/</a>
-         </ul>      
-      <li><b>/misc/bluedroid/bt_config.conf</b></li>
-      <ul>
-         <li><b>How Android Bluetooth Connections Can Determine If The Hands of a Driver Were On The Wheel During An Accident</b><br /><a href="https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/">https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/</a><br /><a href="https://dfir.pubpub.org/pub/6ysxvhvc/release/1">https://dfir.pubpub.org/pub/6ysxvhvc/release/1</a></li>
-         <li><b>Android Bluetooth Connection Configuration</b><br /><a href="https://www.stark4n6.com/2021/06/android-bluetooth-connection.html">https://www.stark4n6.com/2021/06/android-bluetooth-connection.html</a></li>
-         <li><b>Android Bluetooth</b><br /><a href="http://forensafe.com/blogs/Android_Bluetooth.html">http://forensafe.com/blogs/Android_Bluetooth.html</a></li>		 
-		 <li><b>Not All Androids Who Wander Are Lost. A Look At Android’s Find My Device Network</b><br /><a href="https://thebinaryhick.blog/2024/08/23/not-all-androids-who-wonder-are-lost-a-look-at-androids-find-my-device-network/">https://thebinaryhick.blog/2024/08/23/not-all-androids-who-wonder-are-lost-a-look-at-androids-find-my-device-network/</a></li>
-		 <li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
-		 <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2015</b><br /><a href="https://cts-forensics.com/reports/35550_Web.pdf">https://cts-forensics.com/reports/35550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2016</b><br /><a href="https://cts-forensics.com/reports/36550_Web.pdf">https://cts-forensics.com/reports/36550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2017</b><br /><a href="https://cts-forensics.com/reports/37550_Web.pdf">https://cts-forensics.com/reports/37550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2022<br /></b><a href="https://cts-forensics.com/reports/22-5550_Web.pdf">https://cts-forensics.com/reports/22-5550_Web.pdf</a></li>
-		 <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
-         <li><b>Cellebrite CTF 2021 Writeup</b><br /><a href="https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708">https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708</a><br /></li>
-		 <li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a><br /></li>		 
-         <li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
-         <li><b>Cellebrite CTF 2022 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html">https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html</a></li>
-         <li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/bluetoothConnections.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/bluetoothConnections.py</a></li>
-      </ul>
-      <li><b>/misc/bootstat/</b></li>
-      <ul>
-         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/last_boot_time.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/last_boot_time.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/factory_reset.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/factory_reset.py</a></li>
-      </ul>
-      <li><b>/misc/wifi/qtables.json</b></li>
-      <li><b><b>/misc/wifi/wpa_supplicant.conf</b><br /></b><b>/misc/wifi/</b><b>WifiConfigStore.xml<br /></b><b>/misc/apexdata/com.android.wifi/WifiConfigStore.xml</b></li>
-      <ul>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2015</b><br /><a href="https://cts-forensics.com/reports/35550_Web.pdf">https://cts-forensics.com/reports/35550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2016</b><br /><a href="https://cts-forensics.com/reports/36550_Web.pdf">https://cts-forensics.com/reports/36550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2017</b><br /><a href="https://cts-forensics.com/reports/37550_Web.pdf">https://cts-forensics.com/reports/37550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2022<br /></b><a href="https://cts-forensics.com/reports/22-5550_Web.pdf">https://cts-forensics.com/reports/22-5550_Web.pdf</a></li>
-         <li><b>Cellebrite Fall 2020 CTF - Part 1 - Tony Mederos</b><br /><a href="https://starwarsfan2099.github.io/2020/11/02/cellebirte-ctf-tony.html">https://starwarsfan2099.github.io/2020/11/02/cellebirte-ctf-tony.html</a></li>
-         <li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a><br /></li>
-         <li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
-         <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py</a></li>
-      </ul>
-      <li><b>/misc/wifi/softap.conf<br /></b><b>/misc/apexdata/com.android.wifi/WifiConfigStoreSoftAp.xml</b></li>
-      <ul>
-         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiHotspot.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiHotspot.py</a></li>
-         <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
-         <li><b>Let's solve challenges - Cellebrite 2022 CTF Writeup</b><br /><a href="https://www.dfirblog.com/cellebrite-2022-ctf-writeup/">https://www.dfirblog.com/cellebrite-2022-ctf-writeup/</a></li>
-         <li><b>Cellebrite CTF 2022 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html">https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html</a></li>
-         https://www.dfirblog.com/cellebrite-2022-ctf-writeup/
-         <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-      </ul>
-      <li><b>/misc_de/0/apexdata/com.android.permission/runtime-permissions.xml</b></li>
-      <ul>
-         <li><b>Android’s “Dangerous” Permissions</b><br /><a href="https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/">https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/</a></li>
-		 <li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
-		 <li><b>Examining A Malware-Infected Android Phone. This Android Is Not Alright.</b><br /><a href="https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/">https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/</a></li>
-         <li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
-         <li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
-		 <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/runtimePerms.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/runtimePerms.py</a></li>
-      </ul>
-      <li><b>/misc_de/0/apexdata/com.android.permission/roles.xml</b></li>
-      <ul>
-         <li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
-		 <li><b>Android’s “Dangerous” Permissions</b><br /><a href="https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/">https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/</a></li>
-		 <li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
-		 <li><b>Magnet Virtual Summit 2024 CTF - Android</b><br /><a href="https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html">https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html</a></li>
-		 <li><b>2024 Magnet Virtual Summit CTF Walkthrough</b><br /><a href="https://m-brumbelow.github.io/posts/MVS2024CTF/">https://m-brumbelow.github.io/posts/MVS2024CTF/</a></li>
-         <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/roles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/roles.py</a></li>
-      </ul>
-   </ul>
 
 <div>
-	<p>
-	<h2 style="text-align: left;"><b>"/property" folder</b></h2>
-	</p>
-		<div>
-         <ul>
-            <li><b>/property/persistent_properties</b></li>
-            <ul>
-               <li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
-			   <li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/persistentProp.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/persistentProp.py</a></li>
-            </ul>
-         </ul>
-      </div>
+	<ul>
+		<li><b>/misc/adb/adb_keys</b></li>
+			<ul>
+				<li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/adb_hosts.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/adb_hosts.py</a></li>
+			</ul>
+		<li><b>/misc/bluedroiddump/mainBuffer.log</b></li>
+			<ul>
+				<li><b>Investigating Evidence of Mobile Phone Usage by Drivers in Road Traffic Accidents</b><br /><a href="https://dfrws.org/sites/default/files/session-files/2015_EU_paper-investigating_evidence_of_mobile_phone_usage_by_drivers_in_road_traffic_accidents.pdf">https://dfrws.org/sites/default/files/session-files/2015_EU_paper-investigating_evidence_of_mobile_phone_usage_by_drivers_in_road_traffic_accidents.pdf</a>
+				<li><b>Forensic Analysis of Wireless Networking Evidence of Android Smartphones</b><br /><a href="https://andriotisp.github.io/assets/pdf/wifs12andrio.pdf">https://andriotisp.github.io/assets/pdf/wifs12andrio.pdf</a>               
+			</ul>           
+		<li><b>/misc/bluedroiddump/subBuffer.log</b></li>
+			<ul>
+				<li><b>Road Trippin’ – Exploring Bluetooth Call Routes on Samsung Phones</b><br /><a   href="https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/">https://thebinaryhick.blog/2024/04/16/road-trippin-exploring-bluetooth-call-routes-on-samsung-phones/</a>
+			</ul>      
+		<li><b>/misc/bluedroid/bt_config.conf</b></li>
+			<ul>
+				<li><b>How Android Bluetooth Connections Can Determine If The Hands of a Driver Were On The Wheel During An Accident</b><br /><a href="https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/">https://cellebrite.com/en/how-android-bluetooth-connections-can-determine-if-the-hands-of-a-driver-were-on-the-wheel-during-an-accident/</a><br /><a href="https://dfir.pubpub.org/pub/6ysxvhvc/release/1">https://dfir.pubpub.org/pub/6ysxvhvc/release/1</a></li>
+				<li><b>Android Bluetooth Connection Configuration</b><br /><a href="https://www.stark4n6.com/2021/06/android-bluetooth-connection.html">https://www.stark4n6.com/2021/06/android-bluetooth-connection.html</a></li>
+				<li><b>Android Bluetooth</b><br /><a href="http://forensafe.com/blogs/Android_Bluetooth.html">http://forensafe.com/blogs/Android_Bluetooth.html</a></li>		 
+				<li><b>Not All Androids Who Wander Are Lost. A Look At Android’s Find My Device Network</b><br /><a href="https://thebinaryhick.blog/2024/08/23/not-all-androids-who-wonder-are-lost-a-look-at-androids-find-my-device-network/">https://thebinaryhick.blog/2024/08/23/not-all-androids-who-wonder-are-lost-a-look-at-androids-find-my-device-network/</a></li>
+				<li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2015</b><br /><a href="https://cts-forensics.com/reports/35550_Web.pdf">https://cts-forensics.com/reports/35550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2016</b><br /><a href="https://cts-forensics.com/reports/36550_Web.pdf">https://cts-forensics.com/reports/36550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2017</b><br /><a href="https://cts-forensics.com/reports/37550_Web.pdf">https://cts-forensics.com/reports/37550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2022<br /></b><a href="https://cts-forensics.com/reports/22-5550_Web.pdf">https://cts-forensics.com/reports/22-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
+				<li><b>Cellebrite CTF 2021 Writeup</b><br /><a href="https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708">https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708</a><br /></li>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a><br /></li>		 
+				<li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
+				<li><b>Cellebrite CTF 2022 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html">https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html</a></li>
+				<li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/bluetoothConnections.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/bluetoothConnections.py</a></li>
+			</ul>
+		<li><b>/misc/bootstat/</b></li>
+			<ul>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/last_boot_time.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/last_boot_time.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/factory_reset.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/factory_reset.py</a></li>
+			</ul>
+		<li><b>/misc/wifi/qtables.json</b></li>
+		<li><b><b>/misc/wifi/wpa_supplicant.conf</b><br /></b><b>/misc/wifi/</b><b>WifiConfigStore.xml<br /></b><b>/misc/apexdata/com.android.wifi/WifiConfigStore.xml</b></li>
+			<ul>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2015</b><br /><a href="https://cts-forensics.com/reports/35550_Web.pdf">https://cts-forensics.com/reports/35550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2016</b><br /><a href="https://cts-forensics.com/reports/36550_Web.pdf">https://cts-forensics.com/reports/36550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2017</b><br /><a href="https://cts-forensics.com/reports/37550_Web.pdf">https://cts-forensics.com/reports/37550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2022<br /></b><a href="https://cts-forensics.com/reports/22-5550_Web.pdf">https://cts-forensics.com/reports/22-5550_Web.pdf</a></li>
+				<li><b>Cellebrite Fall 2020 CTF - Part 1 - Tony Mederos</b><br /><a href="https://starwarsfan2099.github.io/2020/11/02/cellebirte-ctf-tony.html">https://starwarsfan2099.github.io/2020/11/02/cellebirte-ctf-tony.html</a></li>
+				<li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a><br /></li>
+				<li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py</a></li>
+			</ul>
+		<li><b>/misc/wifi/softap.conf<br /></b><b>/misc/apexdata/com.android.wifi/WifiConfigStoreSoftAp.xml</b></li>
+			<ul>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiHotspot.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiHotspot.py</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
+				<li><b>Let's solve challenges - Cellebrite 2022 CTF Writeup</b><br /><a href="https://www.dfirblog.com/cellebrite-2022-ctf-writeup/">https://www.dfirblog.com/cellebrite-2022-ctf-writeup/</a></li>
+				<li><b>Cellebrite CTF 2022 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html">https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html</a></li>
+				<li><b>Let's solve challenges - Cellebrite 2022 CTF Writeup</b><br /><a href="https://www.dfirblog.com/cellebrite-2022-ctf-writeup/">https://www.dfirblog.com/cellebrite-2022-ctf-writeup/</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+			</ul>
+		<li><b>/misc_de/0/apexdata/com.android.permission/runtime-permissions.xml</b></li>
+			<ul>
+				<li><b>Android’s “Dangerous” Permissions</b><br /><a href="https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/">https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/</a></li>
+				<li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
+				<li><b>Examining A Malware-Infected Android Phone. This Android Is Not Alright.</b><br /><a href="https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/">https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/runtimePerms.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/runtimePerms.py</a></li>
+			</ul>
+		<li><b>/misc_de/0/apexdata/com.android.permission/roles.xml</b></li>
+			<ul>
+				<li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
+				<li><b>Android’s “Dangerous” Permissions</b><br /><a href="https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/">https://thebinaryhick.blog/2021/01/26/androids-dangerous-permissions/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Magnet Virtual Summit 2024 CTF - Android</b><br /><a href="https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html">https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html</a></li>
+				<li><b>2024 Magnet Virtual Summit CTF Walkthrough</b><br /><a href="https://m-brumbelow.github.io/posts/MVS2024CTF/">https://m-brumbelow.github.io/posts/MVS2024CTF/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/roles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/roles.py</a></li>
+			</ul>
+	</ul>
 </div>
+
+<p>
+<h2 style="text-align: left;"><b>"/property" folder</b></h2>
+</p>
+
 <div>
-	<p>
-	<h2 style="text-align: left;"><b>"/system", "/system_ce" and "/system_de" folders</b></h2>
-	</p>
+	<ul>
+		<li><b>/property/persistent_properties</b></li>
+			<ul>
+				<li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
+				<li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/persistentProp.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/persistentProp.py</a></li>
+			</ul>
+	</ul>
 </div>
-   <div>
-      <ul style="text-align: left;">
-         <li><b>/system/appops/<br /></b></li>
+
+
+<p>
+<h2 style="text-align: left;"><b>"/system", "/system_ce" and "/system_de" folders</b></h2>
+</p>
+
+<div>
+	<ul style="text-align: left;">
+		<li><b>/system/appops/</b></li>
 			<ul>
 				<li><b>Snooping on Android 12’s Privacy Dashboard</b><br /><a href="https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/">https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/</a></li>
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 				<li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/discreteNative.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/discreteNative.py</a></li>
 			</ul>
-         <li><b>/system/batteryusagestats/</b></li>
-         <li><b>/system/job/jobs.xml</b></li>
-         <li><b>/system/netstats/</b></li>
+		<li><b>/system/batteryusagestats/</b></li>
+		<li><b>/system/job/jobs.xml</b></li>
+		<li><b>/system/netstats/</b></li>
 			<ul>
 				<li><b>Burn After Reading: Expunging Execution Footprints of Android Apps</b><br /><a href="https://lijuanru.com/publications/nss18.pdf">https://lijuanru.com/publications/nss18.pdf</a></li>
 				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 			</ul>
-         <li><b>/system/procstats/</b></li>
+		<li><b>/system/procstats/</b></li>
 			<ul>
 				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
 			</ul>
-         <li><b>/system/sync/accounts.xml</b></li>
+		<li><b>/system/sync/accounts.xml</b></li>
 			<ul>
 				<li><b>Who is the owner of the mobile device?</b><br /><a href="https://www.digitalforensics.com/blog/articles/who-is-the-owner-of-the-mobile-device/">https://www.digitalforensics.com/blog/articles/who-is-the-owner-of-the-mobile-device/</a><br /></li>				
 				<li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a></li>
 				<li><b>Super Sunday Funday Forensic Challenge - Update 4</b><br /><a href="https://www.hecfblog.com/2014/09/super-sunday-funday-forensic-challenge_15.html">https://www.hecfblog.com/2014/09/super-sunday-funday-forensic-challenge_15.html</a></li>
 				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
 			</ul>
-         <li><b>/system/shutdown-checkpoints/</b></li>
+		<li><b>/system/shutdown-checkpoints/</b></li>
 			<ul>
 				<li><b>Shutdown Checkpoints in Android 12</b><br /><a href="https://www.stark4n6.com/2022/01/shutdown-checkpoints-in-android-12.html">https://www.stark4n6.com/2022/01/shutdown-checkpoints-in-android-12.html</a></li>
-				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/shutdown_checkpoints.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/shutdown_checkpoints.py</a></li>
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/shutdown_checkpoints.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/shutdown_checkpoints.py</a></li>
 			</ul>
-         <li><b>/system/users/0.xml</b></li>
+		<li><b>/system/users/0.xml</b></li>
 			<ul>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2022<br /></b><a href="https://cts-forensics.com/reports/22-5550_Web.pdf">https://cts-forensics.com/reports/22-5550_Web.pdf</a></li>
 				<li><b>Forensic analysis of IoT ecosystem</b><br /><a href="https://hal.archives-ouvertes.fr/hal-03369836/document">https://hal.archives-ouvertes.fr/hal-03369836/document</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 			</ul>
-         <li><b>/system/users/0/app_idle_stats.xml</b></li>
-         <li><b>/system/users/0/settings_global.xml<br /></b></li>
-         <li><b><b>/system/users/0/</b>settings_secure.xml</b></li>
-         <ul>
-            <li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
-            <li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
-            <li><b>Examining A Malware-Infected Android Phone. This Android Is Not Alright.</b><br /><a href="https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/">https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/settingsSecure.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/settingsSecure.py</a></li>
-         </ul>
-         <li><b><b>/system/users/0/</b>settings_ssaid.xml</b></li>
-         <ul>
-            <li><b>Forensic analysis of instant messengers: Decrypt Signal, Wickr, and Threema</b><br /><a href="https://www.sciencedirect.com/science/article/pii/S2666281722000166">https://www.sciencedirect.com/science/article/pii/S2666281722000166</a></li>
-         </ul>
-         <li><b><b>/system/users/0/</b>settings_system.xml</b></li>
-         <ul>
-            <li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
-         </ul>
-         <li><b>/system/users/service/data/eRR.p</b></li>
-         <ul>
-            <li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/errp.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/errp.py</a></li>            
-         </ul>
-         <li><b>/system/appops.xml</b></li>
-         <ul>
-            <li><b>Snooping on Android 12’s Privacy Dashboard</b><br /><a href="https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/">https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/</a></li>
-            <li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appopSetupWiz.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appopSetupWiz.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appops.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appops.py</a></li>
-            <li><b>Digital Forensic Practices and Methodologies for AI Speaker Ecosystems</b><br /><a href="https://www.sciencedirect.com/science/article/pii/S1742287619301628">https://www.sciencedirect.com/science/article/pii/S1742287619301628</a></li>
-            <li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
-         </ul>
-         <li><b>/system/batterystats.bin</b></li>
-         <ul>
-            <li><b>Video Aficionado: We Know What You Are Watching<br /></b><a href="https://par.nsf.gov/servlets/purl/10215810">https://par.nsf.gov/servlets/purl/10215810</a></li>
-            <li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
-         </ul>
-         <li><b>/system/batterystats-checkin.bin</b></li>
-         <li><b>/system/batterystats-daily.xml</b></li>
-         <ul>
-            <li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
-         </ul>
-         <li><b>/system/deviceidle.xml</b></li>
-         <li><b>/system/locksettings.db</b></li>
-         <li><b>/system/netpolicy.xml</b></li>
-         <ul>
-            <li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
-            <li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
-            <li><b>Cellebrite CTF 2021 Writeup</b><br /><a href="https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708">https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708</a></li>
-            <li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
-         </ul>
-         <li><b>/system/notification_policy.xml</b></li>
-         <ul>
-            <li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
-         </ul>
-         <li><b>/system/PkgPredictions.db</b></li>
-         <ul>
-            <li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/pkgPredictions.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/pkgPredictions.py</a></li>
-         </ul>
-         <li><b>/system/SemWifiApContentProvider</b></li>
-         <ul>
-            <li><b>Part 2: CTF 2022 Write Up – Heisenberg’s Android</b><br /><a href="https://cellebrite.com/en/part-2-ctf-2022-write-up-heisenbergs-android/">https://cellebrite.com/en/part-2-ctf-2022-write-up-heisenbergs-android/</a></li>
-         </ul>
-         <li><b>/system/SimCard.dat</b></li>
-         <ul>
-            <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
-            <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
-            <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
-            <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
-            <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-         </ul>
-         <li><b>/system/WifiConfigStore.db</b></li>
-         <li><b>/system/WifiHistory.db</b></li>
-         <li><b>/system/wifigeofence.db</b></li>
-         <ul>
-            <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
-         </ul>
-         <li><b>/system/packages.xml</b></li>
-         <ul>
-            <li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
-            <li><b>Mobile Forensics: Discovering the Undiscovered</b><br /><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
-            <li><b>Some artifacts in the /data/system/ directory</b><br /><a href="http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html">http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html</a></li>
-            <li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
-            <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageInfo.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageInfo.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/permissions.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/permissions.py</a></li>
-         </ul>
-         <li><b>/system/packages.list</b></li>
-         <ul>
-            <li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
-            <li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
-            <li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
-            <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a><br /></li>
-            <li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageGplinks.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageGplinks.py</a></li>
-         </ul>
-         <li><b>/system_ce/0/accounts_ce.db<br /></b></li>
-         <ul>
-            <li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
-            <li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
-            <div>
-               <li><b>Android - Tracking Device Migration</b><br /><a href="https://blog.d204n6.com/2021/06/android-tracking-device-migration.html">https://blog.d204n6.com/2021/06/android-tracking-device-migration.html</a></li>
-               <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_ce.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_ce.py</a></li>
-            </div>
-         </ul>
-         <li><b>/system_ce/recent_images/<br /></b></li>
-         <ul>
-            <li><b>Mobile Forensics: Discovering the Undiscovered<br /></b><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
-            <li><b>Android Recent Tasks XML Parser</b><br /><a href="https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html">https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html</a></li>
-            <li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
-            <li><b>Digital Forensic Practices and Methodologies for AI Speaker Ecosystems</b><br /><a href="https://www.sciencedirect.com/science/article/pii/S1742287619301628">https://www.sciencedirect.com/science/article/pii/S1742287619301628</a></li>
-            <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py</a></li>
-         </ul>
-         <li><b>/system_ce/recent_tasks/</b></li>
-         <ul>
-            <li><b>Mobile Forensics: Discovering the Undiscovered</b><br /><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
-            <li><b>Android Recent Tasks XML Parser</b><br /><a href="https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html">https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html</a></li>
-            <li><b>Digital Forensic Practices and Methodologies for AI Speaker Ecosystems<br /></b><a href="https://www.sciencedirect.com/science/article/pii/S1742287619301628">https://www.sciencedirect.com/science/article/pii/S1742287619301628</a></li>
-            <li><b>Corroboration. That Is All.</b><br /><a href="https://thebinaryhick.blog/2021/06/17/corroboration-that-is-all/">https://thebinaryhick.blog/2021/06/17/corroboration-that-is-all/</a></li>
-            <li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
-            <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py</a></li>
-            <li><b>Write-up Magnet Weekly CTF</b><br /><a href="https://www.cloud-response.com/2020/10/write-up-magnet-weekly-ctf.html">https://www.cloud-response.com/2020/10/write-up-magnet-weekly-ctf.html</a></li>
-         </ul>
-         <li><b>/system_ce/shortcuts/</b></li>
-         <li><b>/system_ce/snapshots/</b></li>
-         <ul>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py</a></li>
-         </ul>
-         <li><b>/system_ce/usagestats/</b></li>
-         <ul>
-            <li><b>Android Usagestats XML Parser</b><br /><a href="https://abrignoni.blogspot.com/2019/02/android-usagestats-xml-parser.html">https://abrignoni.blogspot.com/2019/02/android-usagestats-xml-parser.html</a></li>
-            <li><b>Identifying the Android Operating System Version thru UsageStats</b><br /><a href="https://www.sans.org/white-papers/40265/">https://www.sans.org/white-papers/40265/</a></li>
-            <li><b>Usagestats on Android 10 (Q)</b><br /><a href="http://www.swiftforensics.com/2020/01/usagestats-on-android-10-q.html">http://www.swiftforensics.com/2020/01/usagestats-on-android-10-q.html</a></li>
-            <li><b>Mobile Forensics: Discovering the Undiscovered</b><br /><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
-            <li><b>Some artifacts in the /data/system/ directory</b><br /><a href="http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html">http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html</a></li>
-            <li><b>Android Dumpsys Analysis to Indicate Driver Distraction</b><br /><a href="https://ccdcoe.org/uploads/2021/03/Android-Dumpsys-Analysis-to-Indicate-Driver-Distraction.pdf">https://ccdcoe.org/uploads/2021/03/Android-Dumpsys-Analysis-to-Indicate-Driver-Distraction.pdf</a></li>
-            <li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
-            <li><b>Tracking traces of deleted applications</b><br /><a href="https://www.youtube.com/watch?v=4LcQm4ErXpA">https://www.youtube.com/watch?v=4LcQm4ErXpA</a><br /><a href="https://docplayer.net/148670626-Tracking-traces-of-deleted-applications-christopher-vance-alexis-brignoni.html">https://docplayer.net/148670626-Tracking-traces-of-deleted-applications-christopher-vance-alexis-brignoni.html</a></li>
-            <li><b>Android version without the build.props file</b><br /><a href="https://abrignoni.blogspot.com/2021/04/android-version-without-buildprops-file.html">https://abrignoni.blogspot.com/2021/04/android-version-without-buildprops-file.html</a></li>
-            <li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
-            <li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-            <li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestats.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestats.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestatsVersion.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestatsVersion.py</a></li>
-         </ul>
-         <li><b>/system_de/0/accounts_de.db</b></li>
-         <ul>
-            <li><b>Android - Tracking Device Migration<br /></b><a href="https://blog.d204n6.com/2021/06/android-tracking-device-migration.html">https://blog.d204n6.com/2021/06/android-tracking-device-migration.html</a></li>
-            <li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a></li>
-            <li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_de.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_de.py</a></li>
-         </ul>
-      </ul>
-   </div>
+		<li><b>/system/users/0/app_idle_stats.xml</b></li>
+		<li><b>/system/users/0/settings_global.xml</b></li>
+			<ul>
+				<li><b>Analysis of Android settings during a forensic investigation</b><br /><a href="https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html">https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html</a></li>
+			</ul>		
+		<li><b><b>/system/users/0/</b>settings_secure.xml</b></li>
+			<ul>
+				<li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
+				<li><b>Examining A Malware-Infected Android Phone. This Android Is Not Alright.</b><br /><a href="https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/">https://thebinaryhick.blog/2022/04/09/examining-a-malware-infected-android-phone-this-android-is-not-alright/</a></li>
+				<li><b>Analysis of Android settings during a forensic investigation</b><br /><a href="https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html">https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html</a></li>
+				<li><b>Magnet User Summit 2023 CTF - Android (Part 1)</b><br /><a href="https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android.html">https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android.html</a></li>				
+				<li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/settingsSecure.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/settingsSecure.py</a><br/><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/notificationHistory.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/notificationHistory.py</a></li>
+			</ul>
+		<li><b><b>/system/users/0/</b>settings_ssaid.xml</b></li>
+			<ul>
+				<li><b>Forensic analysis of instant messengers: Decrypt Signal, Wickr, and Threema</b><br /><a href="https://www.sciencedirect.com/science/article/pii/S2666281722000166">https://www.sciencedirect.com/science/article/pii/S2666281722000166</a></li>
+				<li><b>Investigating Android Wickr</b><br /><a href="https://forensafe.com/blogs/Android_Wickr.html">https://forensafe.com/blogs/Android_Wickr.html</a></li>				
+			</ul>
+		<li><b><b>/system/users/0/</b>settings_system.xml</b></li>
+			<ul>
+				<li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
+				<li><b>Analysis of Android settings during a forensic investigation</b><br /><a href="https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html">https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html</a></li>
+			</ul>
+		<li><b>/system/users/service/data/eRR.p</b></li>
+			<ul>
+				<li><b>DeRR.p. Investigating Power Events on Samsung Devices</b><br /><a href="https://thebinaryhick.blog/2024/04/07/__trashed/">https://thebinaryhick.blog/2024/04/07/__trashed/</a></li>
+				<li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
+				<li><b>Comparison, Evolution and Challenges of Mobile hone and Android Devices: Forensic Study of Role of a Mobile Battery of an Comparison, Evolution and Challenges of Mobile Phone Batteries in Forensic Study of Role of a Mobile Battery of an Android Xiaomi Phone Comparison, Evolution and Challenges of Mobile Phone Batteries in iPhone and Android Devices Forensic Study of Role of a Mobile Battery of an Android Xiaomi Phone</b><br /><a href="https://www.jetir.org/papers/JETIR2408628.pdf">https://www.jetir.org/papers/JETIR2408628.pdf</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/errp.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/errp.py</a></li>            
+			</ul>
+		<li><b>/system/appops.xml</b></li>
+			<ul>
+				<li><b>Snooping on Android 12’s Privacy Dashboard</b><br /><a href="https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/">https://thebinaryhick.blog/2022/01/22/snooping-on-android-12s-privacy-dashboard/</a></li>
+				<li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appopSetupWiz.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appopSetupWiz.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appops.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/appops.py</a></li>
+				<li><b>Digital Forensic Practices and Methodologies for AI Speaker Ecosystems</b><br /><a href="https://www.sciencedirect.com/science/article/pii/S1742287619301628">https://www.sciencedirect.com/science/article/pii/S1742287619301628</a></li>
+				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+			</ul>
+		<li><b>/system/batterystats.bin</b></li>
+			<ul>
+				<li><b>Video Aficionado: We Know What You Are Watching<br /></b><a href="https://par.nsf.gov/servlets/purl/10215810">https://par.nsf.gov/servlets/purl/10215810</a></li>
+				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Comparison, Evolution and Challenges of Mobile hone and Android Devices: Forensic Study of Role of a Mobile Battery of an Comparison, Evolution and Challenges of Mobile Phone Batteries in Forensic Study of Role of a Mobile Battery of an Android Xiaomi Phone Comparison, Evolution and Challenges of Mobile Phone Batteries in iPhone and Android Devices Forensic Study of Role of a Mobile Battery of an Android Xiaomi Phone</b><br /><a href="https://www.jetir.org/papers/JETIR2408628.pdf">https://www.jetir.org/papers/JETIR2408628.pdf</a></li>				
+			</ul>
+		<li><b>/system/batterystats-checkin.bin</b></li>
+			<ul>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+			</ul>		
+		<li><b>/system/batterystats-daily.xml</b></li>
+			<ul>
+				<li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
+			</ul>
+		<li><b>/system/deviceidle.xml</b></li>
+		<li><b>/system/locksettings.db</b></li>
+			<ul>
+				<li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
+				<li><b>New Year Challenge CyberTalents CTF 2025|Forensics Writeup</b><br /><a href="https://medium.com/@SIGMA_001/new-year-challenge-cybertalents-ctf-2025-forensics-writeup-dd5c46e126c4">https://medium.com/@SIGMA_001/new-year-challenge-cybertalents-ctf-2025-forensics-writeup-dd5c46e126c4</a></li>
+			</ul>
+		<li><b>/system/netpolicy.xml</b></li>
+			<ul>
+				<li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
+				<li><b>Cellebrite CTF 2021 Writeup</b><br /><a href="https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708">https://medium.com/@williamskosasi/cellebrite-ctf-2021-writeup-b73d821a708</a></li>
+				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2022<br /></b><a href="https://cts-forensics.com/reports/22-5550_Web.pdf">https://cts-forensics.com/reports/22-5550_Web.pdf</a></li>				
+			</ul>
+		<li><b>/system/notification_policy.xml</b></li>
+			<ul>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Forensic Analysis of Android Notifications' History</b><br /><a href="https://ieeexplore.ieee.org/document/10679344">https://ieeexplore.ieee.org/document/10679344</a></li>				
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/notificationHistory.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/notificationHistory.py</a></li>            
+			</ul>
+		<li><b>/system/PkgPredictions.db</b></li>
+			<ul>
+				<li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/pkgPredictions.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/pkgPredictions.py</a></li>
+			</ul>
+		<li><b>/system/SemWifiApContentProvider</b></li>
+			<ul>
+				<li><b>Part 2: CTF 2022 Write Up – Heisenberg’s Android</b><br /><a href="https://cellebrite.com/en/part-2-ctf-2022-write-up-heisenbergs-android/">https://cellebrite.com/en/part-2-ctf-2022-write-up-heisenbergs-android/</a></li>
+			</ul>
+		<li><b>/system/SimCard.dat</b></li>
+			<ul>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2018</b><br /><a href="https://cts-forensics.com/reports/38550_Web.pdf">https://cts-forensics.com/reports/38550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2019</b><br /><a href="https://cts-forensics.com/reports/19-5550_Web.pdf">https://cts-forensics.com/reports/19-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+			</ul>
+		<li><b>/system/WifiConfigStore.db</b></li>
+		<li><b>/system/WifiHistory.db</b></li>
+		<li><b>/system/wifigeofence.db</b></li>
+			<ul>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
+			</ul>
+		<li><b>/system/packages.xml</b></li>
+			<ul>
+				<li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
+				<li><b>Android System Artifacts: Forensic Analysis of Application Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage">https://belkasoft.com/android-system-artifacts-forensic-analysis-of-application-usage</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>Has the user ever used the XYZ application? aka traces of application execution on mobile devices<br /></b><a href="https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html">https://blog.digital-forensics.it/2023/12/has-user-ever-used-xyz-application-aka.html</a></li>
+				<li><b>Mobile Forensics: Discovering the Undiscovered</b><br /><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
+				<li><b>Some artifacts in the /data/system/ directory</b><br /><a href="http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html">http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html</a></li>
+				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageInfo.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageInfo.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/permissions.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/permissions.py</a></li>
+			</ul>
+		<li><b>/system/packages.list</b></li>
+			<ul>
+				<li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
+				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
+				<li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a><br /></li>
+				<li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageGplinks.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/packageGplinks.py</a></li>
+			</ul>
+		<li><b>/system_ce/0/accounts_ce.db<br /></b></li>
+			<ul>
+				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2020</b><br /><a href="https://cts-forensics.com/reports/20-5550_Web.pdf">https://cts-forensics.com/reports/20-5550_Web.pdf</a></li>
+				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a></li>
+				<li><b>Android - Tracking Device Migration</b><br /><a href="https://blog.d204n6.com/2021/06/android-tracking-device-migration.html">https://blog.d204n6.com/2021/06/android-tracking-device-migration.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_ce.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_ce.py</a></li>
+			</ul>
+		<li><b>/system_ce/notification_history/</b></li>
+			<ul>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/notificationHistory.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/notificationHistory.py</a></li>
+			</ul>
+		<li><b>/system_ce/recent_images/<br /></b></li>
+			<ul>
+				<li><b>Mobile Forensics: Discovering the Undiscovered<br /></b><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
+				<li><b>Android Recent Tasks XML Parser</b><br /><a href="https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html">https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html</a></li>
+				<li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
+				<li><b>Digital Forensic Practices and Methodologies for AI Speaker Ecosystems</b><br /><a href="https://www.sciencedirect.com/science/article/pii/S1742287619301628">https://www.sciencedirect.com/science/article/pii/S1742287619301628</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py</a></li>
+			</ul>
+		<li><b>/system_ce/recent_tasks/</b></li>
+			<ul>
+				<li><b>Mobile Forensics: Discovering the Undiscovered</b><br /><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
+				<li><b>Android Recent Tasks XML Parser</b><br /><a href="https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html">https://abrignoni.blogspot.com/2019/02/android-recent-tasks-xml-parser.html</a></li>
+				<li><b>Digital Forensic Practices and Methodologies for AI Speaker Ecosystems<br /></b><a href="https://www.sciencedirect.com/science/article/pii/S1742287619301628">https://www.sciencedirect.com/science/article/pii/S1742287619301628</a></li>
+				<li><b>Corroboration. That Is All.</b><br /><a href="https://thebinaryhick.blog/2021/06/17/corroboration-that-is-all/">https://thebinaryhick.blog/2021/06/17/corroboration-that-is-all/</a></li>
+				<li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+				<li><b>Write-up Magnet Weekly CTF</b><br /><a href="https://www.cloud-response.com/2020/10/write-up-magnet-weekly-ctf.html">https://www.cloud-response.com/2020/10/write-up-magnet-weekly-ctf.html</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py</a></li>
+			</ul>
+		<li><b>/system_ce/shortcuts/</b></li>
+		<li><b>/system_ce/snapshots/</b></li>
+			<ul>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/recentactivity.py</a></li>
+			</ul>
+		<li><b>/system_ce/usagestats/</b></li>
+			<ul>
+				<li><b>Android Usagestats XML Parser</b><br /><a href="https://abrignoni.blogspot.com/2019/02/android-usagestats-xml-parser.html">https://abrignoni.blogspot.com/2019/02/android-usagestats-xml-parser.html</a></li>
+				<li><b>Identifying the Android Operating System Version thru UsageStats</b><br /><a href="https://www.sans.org/white-papers/40265/">https://www.sans.org/white-papers/40265/</a></li>
+				<li><b>Usagestats on Android 10 (Q)</b><br /><a href="http://www.swiftforensics.com/2020/01/usagestats-on-android-10-q.html">http://www.swiftforensics.com/2020/01/usagestats-on-android-10-q.html</a></li>
+				<li><b>Mobile Forensics: Discovering the Undiscovered</b><br /><a href="https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/">https://www.magnetforensics.com/blog/mobile-forensics-discovering-the-undiscovered/</a></li>
+				<li><b>Some artifacts in the /data/system/ directory</b><br /><a href="http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html">http://freeandroidforensics.blogspot.com/2014/11/some-artifacts-in-datasystem-directory.html</a></li>
+				<li><b>Android Dumpsys Analysis to Indicate Driver Distraction</b><br /><a href="https://ccdcoe.org/uploads/2021/03/Android-Dumpsys-Analysis-to-Indicate-Driver-Distraction.pdf">https://ccdcoe.org/uploads/2021/03/Android-Dumpsys-Analysis-to-Indicate-Driver-Distraction.pdf</a></li>
+				<li><b>Every Step You Take: Application and Network Usage in Android</b><br /><a href="https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html">https://docplayer.net/90183420-Every-step-you-take-application-and-network-usage-in-android.html</a></li>
+				<li><b>Tracking traces of deleted applications</b><br /><a href="https://www.youtube.com/watch?v=4LcQm4ErXpA">https://www.youtube.com/watch?v=4LcQm4ErXpA</a><br /><a href="https://docplayer.net/148670626-Tracking-traces-of-deleted-applications-christopher-vance-alexis-brignoni.html">https://docplayer.net/148670626-Tracking-traces-of-deleted-applications-christopher-vance-alexis-brignoni.html</a></li>
+				<li><b>Android version without the build.props file</b><br /><a href="https://abrignoni.blogspot.com/2021/04/android-version-without-buildprops-file.html">https://abrignoni.blogspot.com/2021/04/android-version-without-buildprops-file.html</a></li>
+				<li><b>Android Internals</b><br /><a href="http://newandroidbook.com/Book/2-Excerpt-Data.pdf">http://newandroidbook.com/Book/2-Excerpt-Data.pdf</a></li>
+				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestats.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestats.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestatsVersion.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/usagestatsVersion.py</a></li>
+			</ul>
+		<li><b>/system_de/0/accounts_de.db</b></li>
+			<ul>
+				<li><b>Android - Tracking Device Migration<br /></b><a href="https://blog.d204n6.com/2021/06/android-tracking-device-migration.html">https://blog.d204n6.com/2021/06/android-tracking-device-migration.html</a></li>
+				<li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_de.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/accounts_de.py</a></li>
+			</ul>
+	</ul>
 </div>
 
 <div>
