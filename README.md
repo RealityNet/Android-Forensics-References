@@ -1057,7 +1057,7 @@
 </div>
 
 <p>
-<h3 style="text-align: left;"><b>Android Location (</b><b>com.google.android.location)</b></h3>
+<h3 style="text-align: left;"><b>Android Location (com.google.android.location)</b></h3>
 </p>
 
 <div>
