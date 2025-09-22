@@ -609,6 +609,18 @@
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>				
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/battery_usage_v9.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/battery_usage_v9.py</a></li>
 			</ul>
+		<li><b>/data/com.google.android.settings.intelligence/shared_prefs/setup_wizard_info.xml</b></li>
+			<ul>
+				<li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>				
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/setupWizardinfo.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/setupWizardinfo.py</a></li>
+			</ul>
+				<li><b>/data/com.google.android.settings.intelligence/shared_prefs/suggestions.xml</b></li>
+			<ul>
+				<li><b>Wipeout! Detecting Android Factory Resets</b><br /><a href="https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/">https://thebinaryhick.blog/2021/08/19/wipeout-detecting-android-factory-resets/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>				
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/suggestions.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/suggestions.py</a></li>
+			</ul>
 	</ul>
 </div>
 
@@ -1144,6 +1156,7 @@
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
 				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleKeepNotes.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleKeepNotes.py</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/keepNotes.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/keepNotes.py</a></li>
 			</ul>
 	</ul>
 </div>
