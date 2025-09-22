@@ -869,6 +869,7 @@
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>								
 				<li><b>Magnet User Summit 2023 CTF - Android (Part 1)</b><br /><a href="https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android.html">https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android.html</a></li>				
 				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
+				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMessages.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMessages.py</a></li>
 			</ul>
 		<li><b>/data/com.google.android.apps.messaging/shared_prefs/sim_state_tracker.xml</b></li>
 			<ul>
