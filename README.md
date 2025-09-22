@@ -202,6 +202,7 @@
 				<li><b>Analysis of Android settings during a forensic investigation</b><br /><a href="https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html">https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html</a></li>
 				<li><b>Magnet User Summit 2023 CTF - Android (Part 1)</b><br /><a href="https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android.html">https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android.html</a></li>				
 				<li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/settingsSecure.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/settingsSecure.py</a><br/><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/notificationHistory.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/notificationHistory.py</a></li>
 			</ul>
 		<li><b><b>/system/users/0/</b>settings_ssaid.xml</b></li>
@@ -213,6 +214,7 @@
 			<ul>
 				<li><b>Android - Roles and Permissions (Android 10/11)</b><br /><a href="https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html">https://blog.d204n6.com/2021/01/android-roles-and-permissions-android.html</a></li>
 				<li><b>Analysis of Android settings during a forensic investigation</b><br /><a href="https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html">https://blog.digital-forensics.it/2024/01/analysis-of-android-settings-during.html</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 			</ul>
 		<li><b>/system/users/service/data/eRR.p</b></li>
 			<ul>
