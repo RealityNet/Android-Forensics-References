@@ -1219,7 +1219,6 @@
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021</b><br /><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
 				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleLastTrip.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleLastTrip.py</a></li>				
 			</ul>
-		
 	</ul>
 </div>
 
