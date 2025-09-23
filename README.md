@@ -588,6 +588,8 @@
 			</ul>
 		<li><b>/data/com.google.android.as/databases/SimpleStorage</b></li>
 			<ul>         
+				<li><b>Cellebrite’s CTF 2023 Recap: Answers for Russell’s Android Device</b><br /><a href="https://cellebrite.com/en/cellebrites-ctf-2023-recap-answers-for-russells-android-device/">https://cellebrite.com/en/cellebrites-ctf-2023-recap-answers-for-russells-android-device/</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/SimpleStorage_applaunch.py">https://github.com/abrignoni/ALEAPP/blob/main/scripts/artifacts/SimpleStorage_applaunch.py</a></li>
 			</ul>      
 	</ul>
@@ -1259,3 +1261,42 @@
 			</ul>	
 	</ul>
 </div>
+
+<p>
+<h3 style="text-align: left;"><b>Samsung My Files (com.sec.android.app.myfiles)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.sec.android.app.myfiles/databases/myfiles.db</b></li>
+			<ul>
+				<li><b>Android - Samsung My Files App<br /></b><a href="https://abrignoni.blogspot.com/2019/06/android-samsung-my-files-app.html">https://abrignoni.blogspot.com/2019/06/android-samsung-my-files-app.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyFiles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyFiles.py</a></li>
+			</ul>
+		<li><b>/data/com.sec.android.app.myfiles/databases/FileInfo.db</b></li>
+			<ul>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyfilesOpHistory.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyfilesOpHistory.py</a></li>
+			</ul>
+		<li><b>/data/com.sec.android.app.myfiles/databases/FileCache.db</b></li>
+			<ul>
+				<li><b>Android - Samsung My Files App<br /></b><a href="https://abrignoni.blogspot.com/2019/06/android-samsung-my-files-app.html">https://abrignoni.blogspot.com/2019/06/android-samsung-my-files-app.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyfilesStored.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyfilesOpHistory.py</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyfilescache.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/smyfilescache.py</a></li>
+			</ul>
+	</ul>
+</div>
+
+<p>
+<h3 style="text-align: left;"><b>Samsung Gallery (com.sec.android.gallery3d)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.sec.android.gallery3d/databases/local.db</b></li>
+			<ul>
+				<li><b>Mike & the Monkey Dumpster Dive Into Samsung Gallery3d App Trash<br /></b><a href="http://cheeky4n6monkey.blogspot.com/2022/01/mike-monkey-dumpster-dive-into-samsung.html">http://cheeky4n6monkey.blogspot.com/2022/01/mike-monkey-dumpster-dive-into-samsung.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/galleryTrash.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/galleryTrash.py</a></li>
+			</ul>
+	</ul>
+</div>
+
