@@ -1218,6 +1218,32 @@
 				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021</b><br /><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
 				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleLastTrip.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleLastTrip.py</a></li>				
-			</ul>		
+			</ul>
+		
+	</ul>
+</div>
+
+<p>
+<h3 style="text-align: left;"><b>Google Photos (com.google.android.apps.photos)</b></h3>
+</p>
+
+<div>
+	<ul>
+		<li><b>/data/com.google.android.apps.photos/databases/gphotos*.db*</b></li>
+			<ul>
+				<li><b>Investigating Android Google Photos<br /></b><a href="https://forensafe.com/blogs/AndroidGooglePhotos.html">https://forensafe.com/blogs/AndroidGooglePhotos.html</a></li>
+				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlePhotos.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlePhotos.py</a></li>
+			</ul>
+		<li><b>/data/com.google.android.apps.photos/databases/disk_cache*</b></li>
+			<ul>
+				<li><b>Investigating Android Google Photos<br /></b><a href="https://forensafe.com/blogs/AndroidGooglePhotos.html">https://forensafe.com/blogs/AndroidGooglePhotos.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlePhotos.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googlePhotos.py</a></li>
+			</ul>
+		<li><b>/com.google.android.apps.photos/databases/local_trash.db</b></li>
+			<ul>
+				<li><b>Dumpster Diving in Google Photos Android App: "local_trash.db"<br /></b><a href="https://deagler4n6blog.blogspot.com/2021/01/dumpster-diving-in-google-photos-android-app.html">https://deagler4n6blog.blogspot.com/2021/01/dumpster-diving-in-google-photos-android-app.html</a></li>
+				<li><b>Investigating Android Google Photos<br /></b><a href="https://forensafe.com/blogs/AndroidGooglePhotos.html">https://forensafe.com/blogs/AndroidGooglePhotos.html</a></li>
+			</ul>	
 	</ul>
 </div>
