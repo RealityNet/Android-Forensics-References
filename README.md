@@ -77,6 +77,7 @@
 				<li><b>Part 1: Walk-Through of Answers to the 2021 CTF – Investigating Heisenberg’s Android Device</b><br /><a href="https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/">https://cellebrite.com/en/part-1-walk-through-of-answers-to-the-2021-ctf-investigating-heisenbergs-android-device/</a><br /></li>		 
 				<li><b>Cellebrite CTF 2021 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html">https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-heisenbergs-android.html</a></li>
 				<li><b>Cellebrite CTF 2022 - Heisenberg's Android</b><br /><a href="https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html">https://www.stark4n6.com/2022/06/cellebrite-ctf-2022-heisenbergs-android.html</a></li>
+				<li><b>Investigating Android Bluetooth</b><br /><a href="https://forensafe.com/blogs/Android_Bluetooth.html">https://forensafe.com/blogs/Android_Bluetooth.html</a>
 				<li><b>aLEAPP plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/bluetoothConnections.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/bluetoothConnections.py</a></li>
 			</ul>
 		<li><b>/misc/bootstat/</b></li>
@@ -97,7 +98,8 @@
 				<li><b>Clockin’ In with Google’s Wear OS</b><br /><a href="https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/">https://thebinaryhick.blog/2021/01/13/clockin-in-with-googles-wear-os/</a><br /></li>
 				<li><b>Learning Android Forensics - Second Edition</b><br /><a href="https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017">https://www.packtpub.com/product/learning-android-forensics-second-edition/9781789131017</a></li>
 				<li><b>Mobile Forensic Investigations A Guide to Evidence Collection, Analysis, and Presentation - Second Edition</b><br /><a href="https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/">https://www.oreilly.com/library/view/mobile-forensic-investigations/9781260135107/</a></li>
-				<li><b>Dissecting the Android WiFiConfigStore.xml for forensic analysis</b><br /><a href="https://blog.digital-forensics.it/2024/02/dissecting-android-wificonfigstorexml.html">https://blog.digital-forensics.it/2024/02/dissecting-android-wificonfigstorexml.html</a></li>			
+				<li><b>Dissecting the Android WiFiConfigStore.xml for forensic analysis</b><br /><a href="https://blog.digital-forensics.it/2024/02/dissecting-android-wificonfigstorexml.html">https://blog.digital-forensics.it/2024/02/dissecting-android-wificonfigstorexml.html</a></li>
+				<li><b>Investigating Android Wi-Fi Information<br /></b><a href="https://forensafe.com/blogs/Android_wifi_Information.html">https://forensafe.com/blogs/Android_wifi_Information.html</a></li>				
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiConfigstore2.py</a><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/wifiProfiles.py</a></li>
 			</ul>
 		<li><b>/misc/wifi/softap.conf<br /></b><b>/misc/apexdata/com.android.wifi/WifiConfigStoreSoftAp.xml</b></li>
@@ -550,6 +552,7 @@
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>				
 				<li><b>Magnet User Summit 2023 CTF - Android (Part 2)</b><br /><a href="https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android_5.html">https://www.stark4n6.com/2023/05/magnet-user-summit-2023-ctf-android_5.html</a></li>				
 				<li><b>Investigating Android Device Health Services</b><br /><a href="https://www.forensafe.com/blogs/AndroidDeviceHealthServices.html">https://www.forensafe.com/blogs/AndroidDeviceHealthServices.html</a></li>								
+				<li><b>Turbo Speed: Parsing Device Health Services from Google</b><br /><a href="https://dfir.pubpub.org/pub/4can3p40/release/1">https://dfir.pubpub.org/pub/4can3p40/release/1</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Turbo_Battery.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Turbo_Battery.py</a></li>
 			</ul>
 		<li><b>/data/com.google.android.apps.turbo/databases/bluetooth.db</b></li>
@@ -557,6 +560,7 @@
 				<li><b>Turbo Strikes Again - Tracking Bluetooth Device Battery</b><br /><a href="https://www.stark4n6.com/2021/06/turbo-strikes-again-tracking-bluetooth.html">https://www.stark4n6.com/2021/06/turbo-strikes-again-tracking-bluetooth.html</a></li>
 				<li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
 				<li><b>Investigating Android Device Health Services</b><br /><a href="https://www.forensafe.com/blogs/AndroidDeviceHealthServices.html">https://www.forensafe.com/blogs/AndroidDeviceHealthServices.html</a></li>								
+				<li><b>Turbo Speed: Parsing Device Health Services from Google</b><br /><a href="https://dfir.pubpub.org/pub/4can3p40/release/1">https://dfir.pubpub.org/pub/4can3p40/release/1</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Turbo_Battery.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Turbo_Battery.py</a></li>
 			</ul>
 		<li><b>/data/com.google.android.apps.turbo/shared_prefs/app_usage_stats.xml</b></li>
@@ -564,6 +568,7 @@
 				<li><b>Turbo Pt. 3 - Device Health Services Application Usage</b><br /><a href="https://www.stark4n6.com/2021/06/turbo-application-usage.html">https://www.stark4n6.com/2021/06/turbo-application-usage.html</a></li>
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>				
 				<li><b>Android System Artifacts: Forensic Analysis of Device Information and Usage</b><br /><a href="https://belkasoft.com/android-system-artifacts-device">https://belkasoft.com/android-system-artifacts-device</a></li>
+				<li><b>Turbo Speed: Parsing Device Health Services from Google</b><br /><a href="https://dfir.pubpub.org/pub/4can3p40/release/1">https://dfir.pubpub.org/pub/4can3p40/release/1</a></li>
 				<li><b>aLEAPP Plugin</b><br /><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Turbo_AppUsage.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/Turbo_AppUsage.py</a></li>
 			</ul>
 	</ul>
@@ -1107,6 +1112,7 @@
 			<ul>
 				<li><b>Gboard has some interesting data..</b><br /><a href="<a href="https://www.swiftforensics.com/2021/01/gboard-has-some-interesting-data.html">https://www.swiftforensics.com/2021/01/gboard-has-some-interesting-data.html</a></li>
 				<li><b>Investigating Android Gboard<br /></b><a href="https://forensafe.com/blogs/AndroidGBoard.html">https://forensafe.com/blogs/AndroidGBoard.html</a></li>
+				<li><b>OMGboard<br /></b><a href="https://kibaffo33.data.blog/2022/06/05/omgboard/">https://kibaffo33.data.blog/2022/06/05/omgboard/</a></li>				
 				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/gboard.py</a></li>
 			</ul>
 	</ul>
@@ -1152,6 +1158,7 @@
 				<li><b>Google Duo - Android & iOS Forensic Analysis</b><br /><a href="https://www.stark4n6.com/2021/08/google-duo-android-ios-forensic-analysis.html">https://www.stark4n6.com/2021/08/google-duo-android-ios-forensic-analysis.html</a></li>
 				<li><b>Investigating Android Google Keep<br /></b><a href="https://www.forensafe.com/blogs/AndroidGoogleKeep.html">https://www.forensafe.com/blogs/AndroidGoogleKeep.html</a></li>
 				<li><b>Google Keep - Notes and Lists: Mobile Artifacts<br /></b><a href="https://blog.bi0s.in/2021/06/18/Forensics/Google-Keep-Notes-and-Lists-Mobile-Artifacts/">https://blog.bi0s.in/2021/06/18/Forensics/Google-Keep-Notes-and-Lists-Mobile-Artifacts/</a></li>
+				<li><b>Google Keep - Notes and Lists: Mobile Artifacts<br /></b><a href="https://g4rud4.gitlab.io/2021/Google-Keep-Notes-and-Lists-Mobile-Artifacts/">https://g4rud4.gitlab.io/2021/Google-Keep-Notes-and-Lists-Mobile-Artifacts/</a></li>
 				<li><b>A first look at Android 14 forensics</b><br /><a href="https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html">https://blog.digital-forensics.it/2024/01/a-first-look-at-android-14-forensics.html</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2021<br /></b><a href="https://cts-forensics.com/reports/21-5550_Web.pdf">https://cts-forensics.com/reports/21-5550_Web.pdf</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
@@ -1205,6 +1212,12 @@
 				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>
 				<li><b>Collaborative Testing Services - Mobile Digital Evidence - 2024<br /></b><a href="https://cts-forensics.com/reports/24-5550_Web.pdf">https://cts-forensics.com/reports/24-5550_Web.pdf</a></li>
 				<li><b>Magnet Virtual Summit 2024 CTF - Android</b><br /><a href="https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html">https://www.stark4n6.com/2024/03/magnet-virtual-summit-2024-ctf-android.html</a></li>
+				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py</a></li>				
+			</ul>		
+		<li><b>/data/com.google.android.apps.maps/databases/gmm_sync.db</b></li>
+			<ul>				
+				<li><b>Finding Phones With Google Maps Part 1 (Android)<br /></b><a href="https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/">https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android/</a></li>				
+				<li><b>Investigating Android Google Maps</b><br /><a href="https://forensafe.com/blogs/Android-GoogleMaps.html">https://forensafe.com/blogs/Android-GoogleMaps.html</a></li>
 				<li><b>aLEAPP Plugin<br /></b><a href="https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py">https://github.com/abrignoni/ALEAPP/blob/master/scripts/artifacts/googleMapsGmm.py</a></li>				
 			</ul>		
 		<li><b>/data/com.google.android.apps.maps/files/new_recent_history_cache_search.cs</b></li>
